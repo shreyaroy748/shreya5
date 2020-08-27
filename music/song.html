@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> PLAY</title>
+    <link rel="stylesheet" href="css/fixed.css">
+    <!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<!-- Introduction Bootstrap -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- font awesome icon -->
+<script src="https://kit.fontawesome.com/e8e6eba5d5.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="line">
+      <span class="mar"><b>Latest Hindi<b></span>
+      <span class="red">more</span>
+
+    </div>
+
+
+
+
+<div class="row">
+
+  <div class="col-md-3">
+      <img class="photo" src="img/sanam.jpg" alt="">
+     <h4><b>Sanam Teri Kasam</b> (2016 film)</h4>
+   <audio id="myAudio" controls>
+     <source src="song/Bewajah.mp3" type="audio/mp3">
+   </audio>
+
+   <p id="demo"></p>
+  </div>
+
+  <div class="col-md-3">
+     <img class="photo"  src="img/zara.jpg" alt="">
+     <h4><b>Zara Thehro</B><br>(Armaan Malik)</h4>
+   <audio id="myAudio" controls>
+     <source src="song/Zara_Thehro.mp3" type="audio/mp3">
+   </audio>
+
+   <p id="demo"></p>
+  </div>
+
+  <div class="col-md-3">
+     <img class="photo"  src="img/aaj.jpg" alt="">
+     <h4><b>Aaj Bhi</b><br>(Vishal Mishra)</h4>
+   <audio id="myAudio" controls>
+     <source src="song/Aaj Bhi.mp3" type="audio/mp3">
+   </audio>
+
+   <p id="demo"></p>
+  </div>
+
+  <div class="col-md-3">
+      <img class="photo"  src="img/dil2.jpg" alt="">
+     <h4><b>Dil Ko Maine Di Kasam</B>(Arijit Singh)</h4>
+   <audio id="myAudio" controls>
+     <source src="song/Dil Ko Maine Di Kasam.mp3" type="audio/mp3">
+   </audio>
+
+   <p id="demo"></p>
+
+  </div>
+
+</div>
+
+<!-- 2nd -->
+<div class="line">
+  <span class="mar"><b>Trending In Hindi<b></span>
+  <span class="red">more</span>
+</div>
+
+
+
+
+<div class="row">
+
+<div class="col-md-3">
+  <img class="photo" src="img/aashiqui.jpg" alt="">
+ <h4><b>Meri Aashiqui</B>(Jubin Nautiyal)</h4>
+<audio id="myAudio" controls>
+ <source src="song/Meri_Aashiqui_1.mp3" type="audio/mp3">
+</audio>
+
+<p id="demo"></p>
+</div>
+
+<div class="col-md-3">
+ <img class="photo"  src="img/hawa.jpg" alt="">
+ <h4><b>Hawa Banke</B><br>(Darshan Raval)</h4>
+<audio id="myAudio" controls>
+ <source src="song/Hawa Banke.mp3" type="audio/mp3">
+</audio>
+
+<p id="demo"></p>
+</div>
+
+<div class="col-md-3">
+ <img class="photo"  src="img/naam.jpg" alt="">
+ <h4><b>Naam</b><br>(Tulsi Kumar)</h4>
+<audio id="myAudio" controls>
+ <source src="song/Naam.mp3" type="audio/mp3">
+</audio>
+
+<p id="demo"></p>
+</div>
+
+<div class="col-md-3">
+  <img class="photo"  src="img/tum.webp" alt="">
+ <h4><b>Tum Hi Aana</b><br>(Marjaavaan)</h4>
+<audio id="myAudio" controls>
+ <source src="song/Tum-Hi-Aana.mp3" type="audio/mp3">
+</audio>
+
+<p id="demo"></p>
+
+</div>
+
+</div>
+
+
+
+
+<script>
+function myFunction() {
+ var x = document.getElementById("myAudio").duration;
+ document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+
+
+  </body>
+</html>
